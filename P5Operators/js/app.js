@@ -18,5 +18,3 @@ console.log(divisionOutput);
 let remainderOutput = 0;
 remainderOutput = divisionInput1 % divisionInput2;
 console.log(remainderOutput);
-
-Math.Pi;
