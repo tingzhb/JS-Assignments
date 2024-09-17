@@ -54,7 +54,7 @@ function addOne(inputNumber) {
 addOne(8);
 
 
-// #4. unction with input(s) and an output
+// #4. Function with input(s) and an output
 // Example Function A
 function square(numberToSquare) {
   return numberToSquare * numberToSquare;
