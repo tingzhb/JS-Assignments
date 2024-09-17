@@ -34,11 +34,20 @@ function addOne(inputNumber) {
 addOne(8);
 
 // Function with input(s) and an output
+// Coding Format
+function nameOfFunction(nameOfInput) {
+  process;
+  return result;
+}
+// Calling Format
+nameOfFunction(3);
+
+// Example 1
 function square(numberToSquare) {
   return numberToSquare * numberToSquare;
 }
 
-// Calling
+// Calling Example 1
 let squaredNumber = square(15);
 console.log(squaredNumber);
 
