@@ -46,16 +46,21 @@ console.log(convertNumbersToLetters(1));
 console.log(convertNumbersToLetters(2));
 console.log(convertNumbersToLetters(4432423));
 
+let score = 0;
+
 function evaluateResult(firstNumber, secondNumber) {
   if (firstNumber === secondNumber) {
     return "Numbers are equal!";
   }
   else if (firstNumber > secondNumber) {
+    score++;
     return "First number is greater than second number!";
   }
   else if (secondNumber > firstNumber) {
+    score--;
     return "Second number is greater than first number!";
   }
 }
 
 console.log(evaluateResult(3124233331, 4123412));
+console.log(score);
